@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  background-image: url("https://www.dsnews.ua/static/storage/thumbs/1200x630/4/cc/e1086c38-cb7f6456869b6d0dd89abe9aaddd6cc4.jpg?v=7901_1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.menu{
+  padding: 20px;
+  max-width: 80%;
+  width: 650px;
+  height: 95%;
+  background-color: rgba(11, 11, 11, 0.7);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+.game-info h2 {
+  margin-bottom: 2%;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+.sq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.sq img {
+  width: 100%; 
+  max-width: 150px; 
+  height: auto; 
+}
+
+.dis {
+  display: none;
+}
+
+#buttons-div {
+  display: flex;
+  justify-content: center;
+  
+}
+
+button {
+  margin-top: 10%;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
